@@ -2,20 +2,28 @@
 
 > 音乐播放器
 
-## Build Setup
 
 ``` bash
-# install dependencies
-npm install
+# 如何运行？
 
-# serve with hot reload at localhost:8080 or localhost:9000
-'npm run dev' or 'node prod.server.js'
+# 首先您的电脑上必须安装node.js
+# 进入到本目录中使用命令行输入：
+    npm install (安装依赖)
+# 有两种运行方法：
+    
+# 1、输入
+    'npm run dev' (会占用您的localhost:8080)
+# 2、输入
+    'npm run build'
+# 等待编译完成后再输入
+    'node prod.server.js'(会占用您的localhost:9000端口)
 
-# build for production with minification
-npm run build
+# 我的github主页：
+    https://github.com/xiaoyao9524
 
-# build for production and view the bundle analyzer report
-npm run build --report
+    感谢您的观看
+
+npm test
 ```
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
